@@ -1,1 +1,74 @@
-/*  your css code here. If applicable */
+#grid{
+    width: 500px;
+    height: 500px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 150px repeat(3, 170px) 200px;
+    grid-template-rows: repeat(5, 70px);
+    grid-template-areas: 
+    "s s s s"
+    "a b c c"
+    "a d d e"
+    "a f g h"
+    "a i i i"
+    ;
+
+}
+
+.eg1{
+    background-color: green;
+    grid-area: s;
+	color: white;
+	padding: 5px;
+}
+
+.eg2{
+    background-color: green;
+    grid-area: a;
+	color: white;
+}
+
+.eg3{
+    background-color:green;
+    grid-area: b;
+	color: white;
+}
+
+.eg4{
+    background-color: green;
+    grid-area: c;
+	color: white;
+}
+
+.eg5{
+    background-color: green;
+    grid-area: d;
+	color: white;
+}
+
+.eg6{
+    background-color:green;
+    grid-area: e;
+	color: white;
+}
+
+.eg7{
+    background-color: green;
+    grid-area: f;
+	color: white;
+}
+.eg8{
+    background-color: green;
+    grid-area: g;
+	color: white;
+}
+.eg9{
+    background-color: green;
+    grid-area: h;
+	color: white;
+}
+.eg10{
+    background-color: green;
+    grid-area: i;
+	color: white;
+}
