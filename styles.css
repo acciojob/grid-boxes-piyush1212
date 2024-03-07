@@ -5,13 +5,13 @@
     gap: 10px;
     grid-template-columns: 242.5px 242.5px 242.5px 242.5px;
     grid-template-rows: 124px 124px 124px 124px 124px;
-    grid-template-areas: 
+    /* grid-template-areas: 
     "s s s s"
     "a b c c"
     "a d d e"
     "a f g h"
     "a i i i"
-    ;
+    ; */
 
 }
 
@@ -26,7 +26,8 @@
 
 .eg2{
     background-color: green;
-    grid-area: a;
+    /* grid-area: a; */
+	grid-row: span 4;
 	color: white;
 	padding: 5px;
 	font-size: 20px;
@@ -34,7 +35,8 @@
 
 .eg3{
     background-color:green;
-    grid-area: b;
+    /* grid-area: b; */
+	grid-column: span 1;
 	color: white;
 	padding: 5px;
 	font-size: 20px;
@@ -42,7 +44,8 @@
 
 .eg4{
     background-color: green;
-    grid-area: c;
+    /* grid-area: c; */
+	grid-column: span 2;
 	color: white;
 	padding: 5px;
 	font-size: 20px;
@@ -50,7 +53,8 @@
 
 .eg5{
     background-color: green;
-    grid-area: d;
+    /* grid-area: d; */
+	grid-column: span 2;
 	color: white;
 	padding: 5px;
 	font-size: 20px;
@@ -58,7 +62,8 @@
 
 .eg6{
     background-color:green;
-    grid-area: e;
+    /* grid-area: e; */
+	grid-column: span 1;
 	color: white;
 	padding: 5px;
 	font-size: 20px;
@@ -66,28 +71,32 @@
 
 .eg7{
     background-color: green;
-    grid-area: f;
+    /* grid-area: f; */
+	grid-column: span 1;
 	color: white;
 	padding: 5px;
 	font-size: 20px;
 }
 .eg8{
     background-color: green;
-    grid-area: g;
+    /* grid-area: g; */
+	grid-column: span 1;
 	color: white;
 	padding: 5px;
 	font-size: 20px;
 }
 .eg9{
     background-color: green;
-    grid-area: h;
+    /* grid-area: h; */
+	grid-column: span 1;
 	color: white;
 	padding: 5px;
 	font-size: 20px;
 }
 .eg10{
     background-color: green;
-    grid-area: i;
+    /* grid-area: i; */
+	grid-column: span 3; 
 	color: white;
 	padding: 5px;
 	font-size: 20px;
