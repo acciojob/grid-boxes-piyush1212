@@ -3,8 +3,8 @@
     height: 500px;
     display: grid;
     gap: 10px;
-    grid-template-columns: 150px repeat(3, 170px) 200px;
-    grid-template-rows: repeat(5, 70px);
+    grid-template-columns: 242.5px 242.5px 242.5px 242.5px;
+    grid-template-rows: 124px 124px 124px 124px 124px;
     grid-template-areas: 
     "s s s s"
     "a b c c"
